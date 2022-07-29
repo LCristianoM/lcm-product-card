@@ -14,13 +14,13 @@ import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'lcm-pro
   product={product}
   initialValues={{
             count: 0,
-            maxCount: 15,
+            //maxCount: 15,
           }} >
   {({ reset, isMaxCountReached, maxCount, increaseBy, count }) => (
   <>
-  <ProductImage />
-  <ProductTitle  />
-  <ProductButtons  />
+    <ProductImage />
+    <ProductTitle  />
+    <ProductButtons  />
   </>
   )}
 </ProductCard>
