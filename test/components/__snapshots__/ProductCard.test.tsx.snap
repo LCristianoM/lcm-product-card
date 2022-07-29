@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard  debe incrementat el contador 1`] = `
+<div
+  className="productCard undefined "
+>
+  <h1>
+    Product card
+  </h1>
+  <span>
+     
+    0
+     
+  </span>
+  <button
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`ProductCard debe mostrar el componete correctamene  1`] = `
+<div
+  className="productCard undefined "
+>
+  <h1>
+    ¨Product card
+  </h1>
+</div>
+`;
